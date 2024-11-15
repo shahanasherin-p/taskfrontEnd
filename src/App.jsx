@@ -4,7 +4,6 @@ import Home from './pages/Home'
 import Pnf from './pages/Pnf'
 import Auth from './pages/Auth'
 import Tasks from './pages/Tasks'
-import Add from './pages/Add'
 import EditTask from './pages/Edit'
 
 
@@ -15,8 +14,7 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Auth/>}/>
-      <Route path='/add-task' element={<Add/>}/>
-      <Route path='/edit-task' element={<EditTask task={Tasks}/>}/>
+      <Route path='/edit-task' element={<EditTask/>}/>
       <Route path='/register' element={<Auth insideRegister={true}/>}/>
       <Route path='/tasks' element={<Tasks/>}/>
       <Route path='/pnf' element={<Pnf/>}/>
