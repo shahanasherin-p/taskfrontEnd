@@ -1,4 +1,4 @@
-import commonAPI from "./commonAPI"
+import commonAPI from "./commonApi"
 import SERVER_URL from "./serverUrl"
 
 
